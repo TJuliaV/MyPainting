@@ -1,0 +1,27 @@
+c:\users\julia\documents\visual studio 2013\Projects\Рисовашка\Рисовашка\bin\Debug\Рисовашка.exe.config
+C:\Users\Julia\documents\visual studio 2013\Projects\Рисовашка\Рисовашка\bin\Debug\Рисовашка.exe
+C:\Users\Julia\documents\visual studio 2013\Projects\Рисовашка\Рисовашка\bin\Debug\Рисовашка.pdb
+C:\Users\Julia\documents\visual studio 2013\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.csprojResolveAssemblyReference.cache
+C:\Users\Julia\documents\visual studio 2013\Projects\Рисовашка\Рисовашка\obj\Debug\MainWindow.baml
+C:\Users\Julia\documents\visual studio 2013\Projects\Рисовашка\Рисовашка\obj\Debug\MainWindow.g.cs
+C:\Users\Julia\documents\visual studio 2013\Projects\Рисовашка\Рисовашка\obj\Debug\App.g.cs
+C:\Users\Julia\documents\visual studio 2013\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка_MarkupCompile.cache
+C:\Users\Julia\documents\visual studio 2013\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.g.resources
+C:\Users\Julia\documents\visual studio 2013\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.Properties.Resources.resources
+C:\Users\Julia\documents\visual studio 2013\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.csproj.GenerateResource.Cache
+C:\Users\Julia\documents\visual studio 2013\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.exe
+C:\Users\Julia\documents\visual studio 2013\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.pdb
+D:\Projects\Рисовашка\Рисовашка\bin\Debug\Рисовашка.exe.config
+D:\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.exe
+D:\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.pdb
+D:\Projects\Рисовашка\Рисовашка\bin\Debug\Рисовашка.exe
+D:\Projects\Рисовашка\Рисовашка\bin\Debug\Рисовашка.pdb
+D:\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.csprojResolveAssemblyReference.cache
+D:\Projects\Рисовашка\Рисовашка\obj\Debug\MainWindow.baml
+D:\Projects\Рисовашка\Рисовашка\obj\Debug\MainWindow.g.cs
+D:\Projects\Рисовашка\Рисовашка\obj\Debug\App.g.cs
+D:\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка_MarkupCompile.cache
+D:\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.g.resources
+D:\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.Properties.Resources.resources
+D:\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.csproj.GenerateResource.Cache
+D:\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка_Content.g.cs
