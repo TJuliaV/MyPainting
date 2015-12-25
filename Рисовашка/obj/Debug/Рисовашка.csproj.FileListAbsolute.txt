@@ -25,3 +25,4 @@ D:\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.g
 D:\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.Properties.Resources.resources
 D:\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка.csproj.GenerateResource.Cache
 D:\Projects\Рисовашка\Рисовашка\obj\Debug\Рисовашка_Content.g.cs
+D:\Projects\Рисовашка\Рисовашка\bin\Debug\Assets\hand.jpg

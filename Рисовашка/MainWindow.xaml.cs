@@ -45,12 +45,12 @@ namespace Рисовашка
         private void MyCanvas_OnMouseDown(object sender, MouseButtonEventArgs e)
         {
             isDrawnNow = true;
-            Start = e.GetPosition(this);
+            Start = new Point(e.GetPosition(this).X, e.GetPosition(this).Y);
         }
 
         private void MyCanvas_OnMouseUp(object sender, MouseButtonEventArgs e)
         {
-            End = e.GetPosition(this);
+            End = new Point(e.GetPosition(this).X, e.GetPosition(this).Y);
 
             if (isDrawn & isDrawnNow)
             {
@@ -58,20 +58,38 @@ namespace Рисовашка
                 {
                     if (Line == "Сплошная")
                     {
-                        SolidRectangle temp = new SolidRectangle();
+                        MySolidRectangle temp = new MySolidRectangle();
+                        temp.Create(MyCanvas, Start, End);
+                        return;
+                    }
+                    if (Line == "Пунктирная")
+                    {
+                        MyDottedRectangle temp = new MyDottedRectangle();
                         temp.Create(MyCanvas, Start, End);
                         return;
                     }
                 }
                 if (Figure == "Линия")
                 {
-
-                    return;
+                    if (Line == "Сплошная")
+                    {
+                        MySolidLine temp = new MySolidLine();
+                        temp.Create(MyCanvas, Start, End);
+                        return;
+                    }
+                    if (Line == "Пунктирная")
+                    {
+                        MyDottedLine temp = new MyDottedLine();
+                        temp.Create(MyCanvas, Start, End);
+                        return;
+                    }
                 }
-                MessageBox.Show("Выберите фигуру");
             }
-
             isDrawnNow = false;
+            MessageBox.Show("Выберите фигуру");
+
+
+
         }
 
         private void MyCanvas_OnMouseMove(object sender, MouseEventArgs e)

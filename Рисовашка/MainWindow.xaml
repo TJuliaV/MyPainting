@@ -57,7 +57,7 @@
             </Grid>
         </Grid>
         <Grid Grid.Column="1">
-            <Canvas Name="MyCanvas" Background="White" MouseDown="MyCanvas_OnMouseDown" MouseUp="MyCanvas_OnMouseUp" MouseMove="MyCanvas_OnMouseMove"/>
+            <Canvas Name="MyCanvas" Background="LightGreen" MouseDown="MyCanvas_OnMouseDown" MouseUp="MyCanvas_OnMouseUp" MouseMove="MyCanvas_OnMouseMove"/>
         </Grid>
         
     </Grid>

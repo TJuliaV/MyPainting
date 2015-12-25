@@ -12,49 +12,53 @@ namespace Рисовашка
 {
     public abstract class MyRectangle
     {
-
         public abstract void Create(Canvas canvas, Point Start, Point Now);
     }
 
-    public class DottedRectangle : MyRectangle
+    public class MyDottedRectangle : MyRectangle
     {
         public override void Create(Canvas canvas, Point Start, Point Now)
         {
+            
             Rectangle rect = new Rectangle();
             rect.Stroke = Brushes.Blue;
-            rect.Width = Start.X - Now.X;
-            rect.Height = Start.Y - Now.Y;
-
-            Canvas.SetLeft(rect, Start.X);
+            rect.Fill = Brushes.CornflowerBlue;
+            rect.StrokeThickness = 5;
+            rect.StrokeDashArray = new DoubleCollection(){2,2};
+            rect.Width = (int)(Now.X - Start.X);
+            rect.Height = (int)(Now.Y - Start.Y);
             Canvas.SetTop(rect, Start.Y);
+            Canvas.SetLeft(rect, Start.X);
+            canvas.Children.Add(rect);
         }
     }
 
-    public class SolidRectangle : MyRectangle
+    public class MySolidRectangle : MyRectangle
     {
         public override void Create(Canvas canvas, Point Start, Point Now)
         {
-            if (Now.X < Start.X)
-            {
-                double temp = Start.X;
-                Start.X = Now.X;
-                Now.X = temp;
-            }
-            if (Now.Y < Start.Y)
-            {
-                double temp = Start.Y;
-                Start.Y = Now.Y;
-                Now.Y = temp;
-            }
+            //if (Now.X < Start.X)
+            //{
+            //    double temp = Start.X;
+            //    Start.X = Now.X;
+            //    Now.X = temp;
+            //}
+            //if (Now.Y < Start.Y)
+            //{
+            //    double temp = Start.Y;
+            //    Start.Y = Now.Y;
+            //    Now.Y = temp;
+            //}
 
             Rectangle rect = new Rectangle();
             rect.Stroke = Brushes.BlueViolet;
-
+            rect.Fill = Brushes.HotPink;
+            rect.StrokeThickness = 5;
             rect.Width = (int)(Now.X - Start.X);
             rect.Height = (int)(Now.Y - Start.Y);
-            rect.SetValue(Canvas.LeftProperty, (rect.Width / 2));
-            rect.SetValue(Canvas.TopProperty, Start.Y);
-
+            Canvas.SetTop(rect, Start.Y);
+            Canvas.SetLeft(rect, Start.X);
+            
             canvas.Children.Add(rect);
         }
     }
